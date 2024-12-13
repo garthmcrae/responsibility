@@ -38,7 +38,12 @@ export function App() {
   return (
     <div style={container}>
       <div style={stack}>
-        <h1 style={heading}>Responsive layouts</h1>
+        <h1 style={heading}>Responsive layouts without media queries</h1>
+        <p>
+          <a href="https://github.com/garthmcrae/responsibility/blob/main/src/app.tsx">
+            View code on Github
+          </a>
+        </p>
         <h2 style={heading}>Grid auto fill min size</h2>
         <div
           style={{
