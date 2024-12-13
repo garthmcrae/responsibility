@@ -42,10 +42,8 @@ export function App() {
         <h2 style={heading}>Grid auto fill min size</h2>
         <div
           style={{
-            "--column-min-size": "200px",
             display: "grid",
-            gridTemplateColumns:
-              "repeat(auto-fill, minmax(var(--column-min-size), 1fr))",
+            gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))",
             gridGap: 8,
           }}
         >
