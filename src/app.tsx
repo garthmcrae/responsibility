@@ -14,15 +14,18 @@ const container: CSSProperties = {
   marginRight: "auto",
   maxWidth: 600,
   paddingBottom: 32,
-  paddingLeft: 16,
-  paddingRight: 16,
+  paddingLeft: 8,
+  paddingRight: 8,
   paddingTop: 32,
 };
 
 const content: CSSProperties = {
   backgroundColor: `rgba(${255 / 2}, ${255 / 2}, ${255 / 2}, .5)`,
   boxSizing: "border-box",
-  padding: 16,
+  paddingBottom: 16,
+  paddingLeft: 8,
+  paddingRight: 8,
+  paddingTop: 16,
 };
 
 const heading: CSSProperties = {
@@ -30,13 +33,17 @@ const heading: CSSProperties = {
   lineHeight: 1,
   marginBottom: 0,
   marginTop: 0,
+  paddingLeft: 8,
+  paddingRight: 8,
 };
 
 const paragraph: CSSProperties = {
   fontSize: "inherit",
-  lineHeight: 1.5,
+  lineHeight: 1,
   marginBottom: 0,
   marginTop: 0,
+  paddingLeft: 8,
+  paddingRight: 8,
 };
 
 const row: CSSProperties = {
@@ -57,24 +64,20 @@ export function App() {
         <h1 style={heading}>Responsive layouts without media queries</h1>
         <blockquote style={blockquote}>
           IT HAPPENED AGAIN. I THOUGHT IT WAS BEHIND ME, BUT THE DREAMS CAME
-          BACK. I WAS UP ALL NIGHT. I CAN'T EAT. I CAN'T SLEEP. WHAT'S WRONG? IT
-          HAUNTS ME.
+          BACK. I WAS UP ALL NIGHT. I CAN'T EAT. I CAN'T SLEEP. IT HAUNTS ME.
         </blockquote>
         <h2 style={heading}>Grid auto fill min size</h2>
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))",
-            gridGap: 8,
+            gridTemplateColumns: "repeat(auto-fill, minmax(184px, 1fr))",
+            gap: 16,
+            paddingLeft: 8,
+            paddingRight: 8,
           }}
         >
           {["Column 1", "Column 2", "Column 3"].map((object) => (
-            <div
-              style={{
-                boxSizing: "border-box",
-                padding: 8,
-              }}
-            >
+            <div>
               <div style={content}>{object}</div>
             </div>
           ))}
@@ -198,7 +201,12 @@ export function App() {
           </div>
         </div>
         <h2 style={heading}>Flex wrap reverse fixed width column</h2>
-        <div style={{ display: "flex", flexWrap: "wrap-reverse" }}>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap-reverse",
+          }}
+        >
           <div
             style={{
               boxSizing: "border-box",
