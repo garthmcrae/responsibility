@@ -1,5 +1,14 @@
 import { CSSProperties } from "react";
 
+const blockquote = {
+  fontSize: "inherit",
+  lineHeight: 1,
+  marginBottom: 0,
+  marginLeft: 40,
+  marginRight: 40,
+  marginTop: 0,
+};
+
 const container: CSSProperties = {
   marginLeft: "auto",
   marginRight: "auto",
@@ -23,6 +32,13 @@ const heading: CSSProperties = {
   marginTop: 0,
 };
 
+const paragraph: CSSProperties = {
+  fontSize: "inherit",
+  lineHeight: 1.5,
+  marginBottom: 0,
+  marginTop: 0,
+};
+
 const row: CSSProperties = {
   display: "flex",
   flexWrap: "wrap",
@@ -39,11 +55,11 @@ export function App() {
     <div style={container}>
       <div style={stack}>
         <h1 style={heading}>Responsive layouts without media queries</h1>
-        <p>
-          <a href="https://github.com/garthmcrae/responsibility/blob/main/src/app.tsx">
-            View code on Github
-          </a>
-        </p>
+        <blockquote style={blockquote}>
+          IT HAPPENED AGAIN. I THOUGHT IT WAS BEHIND ME, BUT THE DREAMS CAME
+          BACK. I WAS UP ALL NIGHT. I CAN'T EAT. I CAN'T SLEEP. WHAT'S WRONG? IT
+          HAUNTS ME.
+        </blockquote>
         <h2 style={heading}>Grid auto fill min size</h2>
         <div
           style={{
@@ -235,6 +251,11 @@ export function App() {
             <div style={content}>Column 1</div>
           </div>
         </div>
+        <p style={paragraph}>
+          <a href="https://github.com/garthmcrae/responsibility/blob/main/src/app.tsx">
+            View code on Github
+          </a>
+        </p>
       </div>
     </div>
   );
