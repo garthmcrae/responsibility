@@ -2,7 +2,6 @@ import { CSSProperties, ReactNode } from "react";
 
 const heading: CSSProperties = {
   fontFamily: '"Instrument Serif", serif',
-  // fontFamily: "serif",
   fontSize: 32,
   fontStyle: "normal",
   fontWeight: 400,
