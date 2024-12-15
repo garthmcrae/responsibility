@@ -15,7 +15,7 @@ export const App = () => {
           <Heading element="h1" style={{ fontSize: 64 }}>
             Responsibility
           </Heading>
-          <Paragraph>/rɪˌspɒnsɪˈbɪlɪˈbɪlɪˈbɪlɪti/</Paragraph>
+          <Paragraph>[ ri-spon-suh-bil-i-tee ]</Paragraph>
           <List>
             <li>
               The state or fact of having a duty to deal with something or of
