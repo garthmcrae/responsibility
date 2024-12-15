@@ -12,8 +12,14 @@ export const App = () => {
       <Container>
         <Stack>
           <Heading element="h1" style={{ fontSize: 64 }}>
-            Responsive layouts (without media queries)
+            Responsibility
           </Heading>
+          <Paragraph>/rɪˌspɒnsɪˈbɪlɪˈbɪlɪˈbɪlɪti/</Paragraph>
+          <Paragraph>
+            1. The state or fact of having a duty to deal with something or of
+            having control over someone.
+          </Paragraph>
+          <Paragraph>2. Responsive layouts without media queries.</Paragraph>
           <Blockquote>
             "IT HAPPENED AGAIN. I THOUGHT IT WAS BEHIND ME, BUT THE DREAMS CAME
             BACK. I WAS UP ALL NIGHT. I CAN'T EAT. I CAN'T SLEEP. IT HAUNTS ME."
