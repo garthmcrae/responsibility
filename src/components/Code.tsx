@@ -13,9 +13,9 @@ const button: CSSProperties = {
 };
 
 const code: CSSProperties = {
-  backgroundColor: "DarkSlateGray",
+  backgroundColor: "darkslategray",
   boxSizing: "border-box",
-  color: "Cornsilk",
+  color: "blanchedalmond",
   fontSize: 16,
   lineHeight: 1.5,
   marginBottom: 0,

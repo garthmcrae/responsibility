@@ -2,12 +2,12 @@ import { CSSProperties, ReactNode } from "react";
 
 const blockquote: CSSProperties = {
   fontSize: "inherit",
-  fontWeight: 900,
+  fontWeight: 500,
   lineHeight: 1.5,
-  marginBottom: 0,
+  marginBottom: 32,
   marginLeft: 40,
   marginRight: 40,
-  marginTop: 0,
+  marginTop: 32,
 };
 
 export const Blockquote = ({ children }: { children: ReactNode }) => {

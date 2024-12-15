@@ -11,12 +11,12 @@ export const App = () => {
     <main>
       <Container>
         <Stack>
-          <Heading element="h1">
+          <Heading element="h1" style={{ fontSize: 64 }}>
             Responsive layouts (without media queries)
           </Heading>
           <Blockquote>
-            IT HAPPENED AGAIN. I THOUGHT IT WAS BEHIND ME, BUT THE DREAMS CAME
-            BACK. I WAS UP ALL NIGHT. I CAN'T EAT. I CAN'T SLEEP. IT HAUNTS ME.
+            "IT HAPPENED AGAIN. I THOUGHT IT WAS BEHIND ME, BUT THE DREAMS CAME
+            BACK. I WAS UP ALL NIGHT. I CAN'T EAT. I CAN'T SLEEP. IT HAUNTS ME."
           </Blockquote>
           <Heading>Auto fill column grid layout</Heading>
           <Paragraph>
