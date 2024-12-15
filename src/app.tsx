@@ -5,6 +5,7 @@ import { Heading } from "./components/Heading";
 import { Paragraph } from "./components/Paragraph";
 import { Stack } from "./components/Stack";
 import { Content } from "./components/Content";
+import { List } from "./components/List";
 
 export const App = () => {
   return (
@@ -15,11 +16,13 @@ export const App = () => {
             Responsibility
           </Heading>
           <Paragraph>/rɪˌspɒnsɪˈbɪlɪˈbɪlɪˈbɪlɪti/</Paragraph>
-          <Paragraph>
-            1. The state or fact of having a duty to deal with something or of
-            having control over someone.
-          </Paragraph>
-          <Paragraph>2. Responsive layouts without media queries.</Paragraph>
+          <List>
+            <li>
+              The state or fact of having a duty to deal with something or of
+              having control over someone.
+            </li>
+            <li>Responsive layouts without media queries.</li>
+          </List>
           <Blockquote>
             "It happened again. I thought it was behind me, but the dreams came
             back. I was up all night. I can't eat. I can't sleep. It haunts me."

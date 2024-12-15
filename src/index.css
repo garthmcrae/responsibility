@@ -1,6 +1,6 @@
 :root {
   --color: #eee;
-  --background-color: #222;
+  --background-color: #112;
 
   font-family: "Space Mono", monospace;
   line-height: 1.5;
@@ -36,7 +36,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    --color: #222;
+    --color: #112;
     --background-color: #eee;
   }
 }
