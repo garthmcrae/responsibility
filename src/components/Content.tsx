@@ -1,16 +1,18 @@
 import { CSSProperties, ReactNode } from "react";
 
+const backgroundColor = `rgba(${`${255 / 2},`.toString().repeat(3)}.25)`;
+
 const content: CSSProperties = {
-  backgroundColor: "var(--color)",
+  backgroundColor,
   boxSizing: "border-box",
-  color: "var(--background-color)",
+  color: "var(--color)",
   fontSize: "inherit",
-  fontWeight: 900,
+  fontWeight: 700,
   lineHeight: 1.5,
-  paddingBottom: 24,
-  paddingLeft: 24,
-  paddingRight: 24,
-  paddingTop: 24,
+  paddingBottom: 40,
+  paddingLeft: 16,
+  paddingRight: 16,
+  paddingTop: 40,
   textAlign: "center",
 };
 

@@ -21,8 +21,8 @@ export const App = () => {
           </Paragraph>
           <Paragraph>2. Responsive layouts without media queries.</Paragraph>
           <Blockquote>
-            "IT HAPPENED AGAIN. I THOUGHT IT WAS BEHIND ME, BUT THE DREAMS CAME
-            BACK. I WAS UP ALL NIGHT. I CAN'T EAT. I CAN'T SLEEP. IT HAUNTS ME."
+            "It happened again. I thought it was behind me, but the dreams came
+            back. I was up all night. I can't eat. I can't sleep. It haunts me."
           </Blockquote>
           <Heading>Auto fill column grid layout</Heading>
           <Paragraph>

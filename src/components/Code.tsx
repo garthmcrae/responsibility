@@ -1,7 +1,7 @@
 import { CSSProperties, useState } from "react";
 import { Expand } from "./Expand";
 
-// const backgroundColor = `rgba(${`${255 / 2},`.toString().repeat(3)}.5)`;
+const backgroundColor = `rgba(${`${255 / 2},`.toString().repeat(3)}.1)`;
 
 const button: CSSProperties = {
   appearance: "none",
@@ -13,18 +13,17 @@ const button: CSSProperties = {
 };
 
 const code: CSSProperties = {
-  backgroundColor: "darkslategray",
+  backgroundColor,
   boxSizing: "border-box",
-  color: "blanchedalmond",
   fontSize: 16,
   lineHeight: 1.5,
   marginBottom: 0,
   marginTop: 0,
   overflowX: "auto",
-  paddingBottom: 32,
+  paddingBottom: 16,
   paddingLeft: 40,
   paddingRight: 40,
-  paddingTop: 32,
+  paddingTop: 16,
 };
 
 const container: CSSProperties = {

@@ -2,7 +2,8 @@ import { CSSProperties, ReactNode } from "react";
 
 const blockquote: CSSProperties = {
   fontSize: "inherit",
-  fontWeight: 500,
+  fontStyle: "italic",
+  fontWeight: 400,
   lineHeight: 1.5,
   marginBottom: 32,
   marginLeft: 40,
