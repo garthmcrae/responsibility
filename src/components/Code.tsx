@@ -8,6 +8,7 @@ const button: CSSProperties = {
   backgroundColor: "transparent",
   borderStyle: "none",
   borderWidth: 0,
+  color: "currentColor",
   display: "block",
   padding: 0,
 };
