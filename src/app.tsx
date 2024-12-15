@@ -22,6 +22,14 @@ export const App = () => {
               having control over someone.
             </li>
             <li>Responsive layouts without media queries.</li>
+            <li>
+              A robust, adaptable, and efficient pattern that adjusts based on a
+              defined minimum content size.
+            </li>
+            <li>
+              Reduce the complexity of your code and improve overall
+              performance. Use it.
+            </li>
           </List>
           <Blockquote>
             "It happened again. I thought it was behind me, but the dreams came
@@ -557,16 +565,6 @@ export const App = () => {
   </div>
 </div>
           `}</Code>
-          <Paragraph>
-            A robust, adaptable, and efficient pattern that adjusts based on a
-            defined minimum content size. Reduce the complexity of your code and
-            improve overall performance.
-          </Paragraph>
-          <Paragraph>
-            <a href="https://github.com/garthmcrae/responsibility/blob/main/src/app.tsx">
-              View code on Github
-            </a>
-          </Paragraph>
         </Stack>
       </Container>
     </main>
