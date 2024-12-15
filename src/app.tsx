@@ -28,7 +28,7 @@ export const App = () => {
             </li>
             <li>
               Reduce the complexity of your code and improve overall
-              performance. Use it.
+              performance.
             </li>
           </List>
           <Blockquote>
