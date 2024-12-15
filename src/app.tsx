@@ -523,7 +523,7 @@ export const App = () => {
                 padding: 8,
               }}
             >
-              <Content>2</Content>
+              <Content>1</Content>
             </div>
             <div
               style={{
@@ -535,7 +535,7 @@ export const App = () => {
                 padding: 8,
               }}
             >
-              <Content>1</Content>
+              <Content>2</Content>
             </div>
           </div>
           <Code>{`
@@ -549,7 +549,7 @@ export const App = () => {
       padding: 8,
     }}
   >
-    <Content>2</Content>
+    <Content>1</Content>
   </div>
   <div
     style={{
@@ -561,7 +561,7 @@ export const App = () => {
       padding: 8,
     }}
   >
-    <Content>1</Content>
+    <Content>2</Content>
   </div>
 </div>
           `}</Code>
