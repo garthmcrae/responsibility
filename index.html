@@ -9,6 +9,50 @@
       name="description"
       content="Responsive layouts that will keep you up at night."
     />
+    <style>
+      :root {
+        --color: #fff;
+        --background-color: #112;
+
+        font-family: "Space Mono", monospace;
+        line-height: 1.5;
+        font-size: 16px;
+        font-weight: 400;
+
+        color-scheme: light dark;
+        color: var(--color);
+        background-color: var(--background-color);
+
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      a {
+        font-weight: 500;
+        color: inherit;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      button {
+        cursor: pointer;
+      }
+
+      button:focus-visible {
+        outline: 4px auto -webkit-focus-ring-color;
+      }
+
+      @media (prefers-color-scheme: light) {
+        :root {
+          --color: #112;
+          --background-color: #fff;
+        }
+      }
+    </style>
     <script type="module" src="/src/main.tsx"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
