@@ -1,5 +1,5 @@
 :root {
-  --color: #eee;
+  --color: #fff;
   --background-color: #112;
 
   font-family: "Space Mono", monospace;
@@ -37,6 +37,6 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     --color: #112;
-    --background-color: #eee;
+    --background-color: #fff;
   }
 }

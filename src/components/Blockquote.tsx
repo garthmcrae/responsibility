@@ -9,7 +9,7 @@ const blockquote: CSSProperties = {
   marginLeft: 40,
   marginRight: 40,
   marginTop: 32,
-  opacity: 0.75,
+  opacity: 0.8,
 };
 
 export const Blockquote = ({ children }: { children: ReactNode }) => {
