@@ -311,7 +311,7 @@ export const App = () => {
   </div>
 </div>
         `}</Code>
-          <Heading>Weak two-column flex grid layout</Heading>
+          <Heading>Soft two-column flex grid layout</Heading>
           <Paragraph>
             A flexbox container that wraps its child items, each with a minimum
             width of two-thirds of the container's width. This ensures that the
@@ -508,7 +508,7 @@ export const App = () => {
   </div>
 </div>
           `}</Code>
-          <Heading>Weak proportional flex grid layout</Heading>
+          <Heading>Soft proportional flex grid layout</Heading>
           <Paragraph>
             Proportional layout until one of the items reaches a specified min
             width.
