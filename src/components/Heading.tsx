@@ -2,7 +2,7 @@ import { CSSProperties, ReactNode } from "react";
 
 const heading: CSSProperties = {
   fontFamily: '"Instrument Serif", serif',
-  fontSize: 32,
+  fontSize: `clamp(32px, ${(32 / 400) * 100}vw, 40px)`,
   fontStyle: "normal",
   fontWeight: 400,
   lineHeight: 1,

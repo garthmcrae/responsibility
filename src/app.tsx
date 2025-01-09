@@ -12,7 +12,10 @@ export const App = () => {
     <main>
       <Container>
         <Stack>
-          <Heading element="h1" style={{ fontSize: 64 }}>
+          <Heading
+            element="h1"
+            style={{ fontSize: `clamp(48px, ${(48 / 400) * 100}vw, 64px)` }}
+          >
             Responsibility
           </Heading>
           <Paragraph>[ ri-spon-suh-bil-i-tee ]</Paragraph>
